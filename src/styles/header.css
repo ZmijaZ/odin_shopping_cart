@@ -1,0 +1,148 @@
+
+.header{
+    width: 100vw;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+
+    margin-left: -8px;
+    margin-top: -10px;
+    
+    background-color: rgb(48, 78, 78);
+    color: rgb(128, 1, 128)
+}
+
+.header h1, h2{
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 35px;
+
+    border-radius: 10px;
+}
+.header h1{
+    font-size: 45px;
+    margin-right: 15%;
+    margin-left: 3%;
+}
+.header h2{
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+.header h2:hover{
+    cursor: pointer;
+    color: rgb(128, 1, 128, 0.8);
+    background-color: rgba(98, 160, 160, 0.3);
+}
+.header h1:hover{
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(128, 1, 128)
+}
+.link:active {
+    color: rgb(110, 1, 110)
+}
+
+.home {
+    background-image: linear-gradient(#e66465, #9198e5);
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.home button{
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    height: 130px;
+
+    background-color: black;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 10px;
+
+    position: relative;
+    top: 45%;
+    left: 40%;
+}
+.home button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.9)
+}
+.home button:active{
+    background-color: rgb(0, 0, 0, 0.76);
+}
+
+.home h1{
+    text-align: center;
+ 
+    position: relative;
+    top: 20vh;
+
+    width: 30%;
+    margin: auto;
+
+    font-size: 35px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.home h1 span{
+    color: aqua;
+}
+
+.about {
+    background-image: linear-gradient(#e66465,#9198e5);
+    height: 38vw;
+    padding: 7px;
+
+    position: absolute;
+    left: 0px;
+    width: 99.2%;
+}
+
+.about .aboutDiv1{
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    height: 270px;
+}
+.about .aboutDiv1 h1{
+    font-size: 100px;
+    color: rgb(48, 78, 78);
+}
+.about .aboutDiv1 a:visited {
+    color: rgb(48, 78, 78);
+}
+.about .aboutDiv1 a:hover{
+    transition: 0.4s;
+    font-size: 110px;
+    position: relative;
+
+    color: rgb(26, 46, 46);
+    cursor: pointer;
+}
+
+.about .aboutDiv2{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+.about .aboutDiv2 h2{
+    font-size: 40px;
+}
+
+
+
